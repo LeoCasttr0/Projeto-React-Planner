@@ -1,9 +1,12 @@
 # Planejador de Viagens com REACT.JS
 
 # Sobre o projeto
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este sistema foi criado para colocar em prática todos conhecimentos adquiridos no Curso de React.js oferecido pelo Evento NLW da Rocketseat.
 
-Currently, two official plugins are available:
+Com foco no aprendizado em Front-end , o objetivo do projeto foi criar um interfaces de um sistema de planejador de viagens usando tecnologias como React e seus conceitos ( Estado, Propriedades, e Componentes) , tipagem Typescript, tooling com Vite, Interface Responsiva com TailwindCSS, consumo de API Node.js, Picker de calendário.
+# Layout do Projeto 
+![Tela de Local e Data]()![Captura de tela_2-8-2024_15917_www figma com](https://github.com/user-attachments/assets/24684306-8d4d-43ae-afdb-6bfe44ba6b86)
+
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
