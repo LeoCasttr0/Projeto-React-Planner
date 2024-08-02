@@ -18,9 +18,11 @@ Com foco no aprendizado em Front-end , o objetivo do projeto foi criar um interf
 
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/51729305-4ea2-447f-a9b6-4beec7139bb0" alt="Logo da Minha Empresa" width="430" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/d4099f7f-a2fe-441e-b54a-b06fd9243352" alt="Logo da Minha Empresa" width="370" style="margin-right: 10px;" />
   <img src="https://github.com/user-attachments/assets/1d1d9cb7-6a0a-4193-9b40-4f4f1f5b2236" alt="Logo da Minha Empresa" width="400" />
 </p>
+
+![detalhes da viagem]()
 
 
 # Autor 
