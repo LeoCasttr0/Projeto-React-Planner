@@ -11,6 +11,6 @@ Com foco no aprendizado em Front-end , o objetivo do projeto foi criar um interf
 # Autor 
 Francisco Leonardo Castro de Paula
 
-📧 Linkedin : 
+📧 Linkedin : https://www.linkedin.com/in/leonardo-castro-5074a0276
 
 💻 Email : leonardo.cdp15@gmail.com
