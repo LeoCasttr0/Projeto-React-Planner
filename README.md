@@ -13,20 +13,14 @@ Com foco no aprendizado em Front-end , o objetivo do projeto foi criar um interf
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/eeff3f7f-a5bf-42c2-bb23-a57099d77958" alt="Logo da Minha Empresa" width="400" style="margin-right: 10px;" />
-  <img src="https://github.com/user-attachments/assets/3c455f14-ccf5-479a-857f-faf0e6d4b6f7" alt="Logo da Minha Empresa" width="419" />
+  <img src="https://github.com/user-attachments/assets/acf361b1-65e1-4f8f-bd5d-50c9883249d7" alt="Logo da Minha Empresa" width="419" />
 </p>
 
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/acf361b1-65e1-4f8f-bd5d-50c9883249d7" alt="Logo da Minha Empresa" width="400" style="margin-right: 10px;" />
-  <img src="https://github.com/user-attachments/assets/51729305-4ea2-447f-a9b6-4beec7139bb0" alt="Logo da Minha Empresa" width="440" />
+  <img src="https://github.com/user-attachments/assets/51729305-4ea2-447f-a9b6-4beec7139bb0" alt="Logo da Minha Empresa" width="400" style="margin-right: 10px;" />
+  <img src="" alt="Logo da Minha Empresa" width="440" />
 </p>
-
-<p float="left">
-  <img src="" alt="Logo da Minha Empresa" width="430" style="margin-right: 10px;" />
-  <img src="" alt="Logo da Minha Empresa" width="400" />
-</p>
-
 
 
 # Autor 
