@@ -21,7 +21,6 @@ Com foco no aprendizado em Front-end , o objetivo do projeto foi criar um interf
   <img src="https://github.com/user-attachments/assets/51729305-4ea2-447f-a9b6-4beec7139bb0" alt="Logo da Minha Empresa" width="430" style="margin-right: 10px;" />
   <img src="https://github.com/user-attachments/assets/1d1d9cb7-6a0a-4193-9b40-4f4f1f5b2236" alt="Logo da Minha Empresa" width="400" />
 </p>
-![Captura de tela_2-8-2024_204521_www figma com](https://github.com/user-attachments/assets/1d1d9cb7-6a0a-4193-9b40-4f4f1f5b2236)
 
 
 # Autor 
