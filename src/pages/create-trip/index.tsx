@@ -86,7 +86,7 @@ export function CreateTripPage() {
   }
 
   //função adicionar o email na tela
-  //(event: FormEvent) --> parmetro de um evento
+  //(event: FormEvent) --> parâmetro de um evento
   //prevent.defult -->
   //<HTMLFormElement> --> especificando que o evento vem de um form
   function addNewEmailToInvite(event: FormEvent<HTMLFormElement>) {
@@ -95,7 +95,7 @@ export function CreateTripPage() {
     const data = new FormData(event.currentTarget);
     const email = data.get("email")?.toString();
 
-    //se o usuario nn preencher nada no email,exibi erro
+    //se o usuario nn preencher nada no email,exibi a mensagem de erro
     if (!email) {
       openMensageErrorForm();
       return;
