@@ -45,6 +45,11 @@ export function DestinationAndDateStep({
           .concat(format(eventStartAndEndDates.to, "d' de ' LLL"))
       : null;
 
+  // aqui estamos desabilitando datas no daypicker
+  const today = new Date(); //pega a data de hoje
+  const tomorrow = new Date(today); // a data de amanhã
+  tomorrow.setDate(today.getDate() + 1); // adiciona mais um dia
+
   return (
     /**Div dos inputs iniciais */
     /* tamanho do h1,cor do texto, padding horizontal , borda arredondada, display flex, itens centralizados, mostrando a sombra do forms, gap : espaçamento entre os itens */
@@ -97,6 +102,8 @@ export function DestinationAndDateStep({
               mode="range"
               selected={eventStartAndEndDates}
               onSelect={setEventStartAndEndDates}
+              fromMonth={tomorrow} // Inicia o mês a partir de amanhã
+              disabled={{ before: tomorrow }} // Desabilita datas anteriores a amanhã
             />
           </div>
         </div>
