@@ -28,6 +28,9 @@ export function CreateActivityModal({
 
     closeCreateActivityModal();
   }
+  
+  // Obtenha a data e hora atuais
+  const currentDateTime = new Date().toISOString().slice(0, 16); // Formato "YYYY-MM-DDTHH:mm"
 
   return (
     <div className="fixed inset-0 bg-black/60 flex items-center justify-center">
@@ -55,7 +58,7 @@ export function CreateActivityModal({
             <Tag className="text-zinc-400 size-5" />
             <input
               name="title"
-              placeholder="Qual a atividade"
+              placeholder="Qual a atividade ?"
               className="bg-transparent text-lg placeholder-zinc-400 outline-none flex-1"
             />
           </div>
@@ -67,6 +70,7 @@ export function CreateActivityModal({
               name="occurs_at"
               placeholder="Data e Horário da Atividade"
               className="bg-transparent text-lg placeholder-zinc-400 outline-none flex-1 "
+              min={currentDateTime} // Desabilita datas passadas
             />
           </div>
 

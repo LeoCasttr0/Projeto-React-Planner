@@ -1,7 +1,10 @@
 import { Mail, User, X } from "lucide-react";
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { Button } from "../../components/button";
 import { AlertMessage } from "../alertMensage";
+import { useParams } from "react-router-dom";
+import { api } from "../../lib/axios";
+import { format } from "date-fns";
 
 interface ConfirmTripmodalProps {
   closeConfirmTripModal: () => void;
@@ -49,15 +52,7 @@ export function ConfirmTripmodal({
           </div>
 
           <p className="text-sm text-zinc-400">
-            Para concluir a criação da viagem para{" "}
-            <span className="font-semibold text-zinc-100">
-              Fortaleza, Brasil
-            </span>{" "}
-            nas datas
-            <span className="font-semibold text-zinc-100">
-              23 a 28 de agosto de 2024
-            </span>
-            , Preencha seus dados abaixo :
+            Para concluir a criação da viagem , Preencha seus dados abaixo :
           </p>
         </div>
 
