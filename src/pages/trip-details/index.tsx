@@ -7,13 +7,16 @@ import { Activities } from "./activities";
 import { HeaderDestination } from "./header-destination";
 
 export function TripDetailsPage() {
+  //modal de criar nova atividade
   const [isCreateActivityModalOPen, setIsCreateActivityModalOPen] =
     useState(false);
 
+  //criar nova atividade
   function openCreateActivityModal() {
     setIsCreateActivityModalOPen(true);
   }
 
+  //fechar modal de nova atividade  atividade
   function closeCreateActivityModal() {
     setIsCreateActivityModalOPen(false);
   }
@@ -26,7 +29,7 @@ export function TripDetailsPage() {
 
       {/* cabeçalho*/}
       <HeaderDestination />
-      
+
       <main className="flex gap-16 px-4">
         {/*primeiro container */}
         <div className="flex-1 space-y-6">

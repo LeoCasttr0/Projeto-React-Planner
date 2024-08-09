@@ -1,10 +1,7 @@
 import { Mail, User, X } from "lucide-react";
-import { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useState } from "react";
 import { Button } from "../../components/button";
 import { AlertMessage } from "../alertMensage";
-import { useParams } from "react-router-dom";
-import { api } from "../../lib/axios";
-import { format } from "date-fns";
 
 interface ConfirmTripmodalProps {
   closeConfirmTripModal: () => void;
