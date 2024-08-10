@@ -26,9 +26,10 @@ export function CreateActivityModal({
       occurs_at,
     });
 
-    closeCreateActivityModal();
+    //atualiza a pagina após a criação da atividade
+   window.document.location.reload()
   }
-  
+
   // Obtenha a data e hora atuais
   const currentDateTime = new Date().toISOString().slice(0, 16); // Formato "YYYY-MM-DDTHH:mm"
 
@@ -52,7 +53,7 @@ export function CreateActivityModal({
           <div className="flex flex-wrap gap-2"></div>
         </div>
 
-        {/*formulario de inserir nome e email pessoal */}
+        {/*formulario de inserir nome da atvidade e a data*/}
         <form onSubmit={createActivity} className="space-y-3">
           <div className="h-14 px-5 bg-zinc-950 border border-zinc-800 rounded-lg flex items-center gap-2">
             <Tag className="text-zinc-400 size-5" />
