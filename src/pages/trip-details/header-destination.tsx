@@ -39,7 +39,7 @@ export function HeaderDestination() {
         <span className="text-zinc-100">{trip?.destination}</span>
       </div>
 
-      <div className=" flex items-center gap-5">
+      <div className=" md: flex items-center gap-5">
         <div className="flex items-center gap-2">
           <Calendar className="size-5 text-zinc-400" />
           <span className="text-zinc-100">{displayedDate}</span>

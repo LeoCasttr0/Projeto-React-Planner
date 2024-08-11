@@ -27,7 +27,7 @@ export function CreateActivityModal({
     });
 
     //atualiza a pagina após a criação da atividade
-   window.document.location.reload()
+    window.document.location.reload();
   }
 
   // Obtenha a data e hora atuais

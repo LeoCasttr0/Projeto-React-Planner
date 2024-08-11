@@ -124,6 +124,9 @@ export function CreateTripPage() {
     setEmailToInvite(newEmailList);
   }
 
+  // transformando ultima data ate 23:59
+  eventStartAndEndDates?.to?.setHours(23, 59, 59);
+
   //função de navegação do usuario
   async function createTrip(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -241,6 +244,3 @@ export function CreateTripPage() {
 function isAlertMessageOpen() {
   throw new Error("Function not implemented.");
 }
-
-
-
